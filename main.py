@@ -3,10 +3,10 @@ import sys
 
 def init():
     parser = argparse.ArgumentParser()
-    parser.add_argument("Name", help = "test case path")
-    parser.add_argument("Input", help = "test inputs file path")
-    parser.add_argument("Output", help = "test outputs file path")
-    parser.add_argument("Golden", help = "golden file path for comparison")
+    parser.add_argument("--name", help = "test case path")
+    parser.add_argument("--input", help = "test inputs file path")
+    parser.add_argument("--output", help = "test outputs file path")
+    parser.add_argument("--golden", help = "golden file path for comparison")
     args = parser.parse_args()
     return args.Name, args.Input, args.Output, args.Golden
 
