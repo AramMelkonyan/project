@@ -4,7 +4,7 @@ The goal of this project is to implement a platform similar to leetcode
 # how to use
 To use the tester you must run the main.py specifying the following arguments:
 > python3 main.py --name <TEST_CASE_PATH> --input <INPUT_FILE_PATH> --output <OUTPUT_FILE_PATH> --golden <GOLDEN_FILE_PATH>
-> PASS
+<br />> PASS
 
 <br /><TEST_CASE_PATH> should contain the solution.py created by the *user* and tester.py created by the *platform*.
 The tester.py comes with every problem, with its own way of parsing the arguments string(received as a single line). So the problem creator should add it inside the folder, where it expects the user's solution.py.
